@@ -7,11 +7,24 @@
 
 #div1, #div3{
 	background-color: yellow;
-	padding: 0.5% 0.5% 4% 1%;
+	padding: 0.5% 0.5% 0.5% 0.5%;
 }
 
 #div2{
 	background-color: fuchsia;
-	padding: 0.5% 0.5% 4% 1%;
-	border: 1px black solid;
+	padding: 0.5% 0.5% 0.5% 0.5%;
+	margin: 20px 5px 20px 5px;
+	width: 2.5%;
+}
+
+.divs{
+	display: inline-block;
+}
+
+#div1{
+	width: 6%;
+}
+
+#div3{
+	width: 11%;
 }
