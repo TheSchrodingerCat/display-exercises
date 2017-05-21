@@ -1,17 +1,29 @@
 
-*{
-	margin: 0;
-	padding: 0;
-	font-family: 'Roboto', sans-serif;
+body{
+	margin: 5px;
+	padding: 5px;
 }
 
-#div1, #div3{
-	background-color: yellow;
-	padding: 0.5% 0.5% 4% 1%;
+.divs.contenedor{
+	width: 380px;
+	height: 139px;
+	padding: 0 7px;
 }
 
-#div2{
-	background-color: fuchsia;
-	padding: 0.5% 0.5% 4% 1%;
-	border: 1px black solid;
+.divs{
+	width: 100px;
+	height: 100px;
+	margin: 19px 10px;
+	border: 2px black solid;
+	background-color: #F3A586;
+}
+
+.divs.inside{
+	display: inline-block;
+}
+
+.divs.inline{
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
 }
